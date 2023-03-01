@@ -1,0 +1,1235 @@
+    :  -ÿ   … ? þØøþÿIFPS   O   0             
+                    	            
+                        
+            
+                                       BOOLEAN        ™   TWIZARDPAGE   TWIZARDPAGE    ™   TNEWPROGRESSBAR   TNEWPROGRESSBAR    ™   TNEWSTATICTEXT   TNEWSTATICTEXT    ™
+   TNEWBUTTON
+   TNEWBUTTON                                                             
+                                ™   TOBJECT   TOBJECT    ™   TWIZARDFORM   TWIZARDFORM       TMSGBOXTYPE       TSETUPMESSAGEID    ™   TCONTROL   TCONTROL    ™
+   TCOMPONENT
+   TCOMPONENT    ™   TWINCONTROL   TWINCONTROL    ™   TNEWNOTEBOOKPAGE   TNEWNOTEBOOKPAGE    •        TNOTIFYEVENT    •        TWIZARDPAGENOTIFYEVENT    •       TWIZARDPAGESHOULDSKIPEVENT    •       TWIZARDPAGEBUTTONEVENT    •        TWIZARDPAGECANCELEVENT    ™   TFONT   TFONT                              
+   
+   
+   	             ™   TLABEL   TLABEL    ‹   
+   
+      TPOINT    
+   
+   
+   
+   3   
+   
+   
+   
+      4         
+       ™   TSTRINGLIST   TSTRINGLIST                           ‹   	   	   	   TFILETIME    ‹	      	   	   	   9   9   9      
+      TFINDREC       TESHIFTSTATE    —      TSHIFTSTATE    •           TMOUSEMOVEEVENT             ™   TNEWCHECKBOX   TNEWCHECKBOX    ™   TNEWEDIT   TNEWEDIT    	   TEXECWAIT       TMOUSEBUTTON    ™   TFORM   TFORM                ™   TEDIT   TEDIT    •            TMOUSEEVENT    ™   TBUTTON   TBUTTON                 
+   TFONTSTYLE    —      TFONTSTYLES           ™   TNEWCHECKLISTBOX   TNEWCHECKLISTBOX    
+   TSETUPSTEP    ™	   TMAINFORM	   TMAINFORM    6        !MAIN   -1 #   dll:files:idp.dll idpAddFile       (   dll:files:idp.dll idpAddFileComp        %   dll:files:idp.dll idpAddMirror       $   dll:files:idp.dll idpClearFiles     $   dll:files:idp.dll idpFilesCount    )   dll:files:idp.dll idpFileDownloaded     )   dll:files:idp.dll idpFilesDownloaded    (   dll:files:idp.dll idpDownloadFile      '   dll:files:idp.dll idpDownloadFiles    +   dll:files:idp.dll idpDownloadFilesComp    -   dll:files:idp.dll idpDownloadFilesCompUi    '   dll:files:idp.dll idpStartDownload     &   dll:files:idp.dll idpStopDownload     $   dll:files:idp.dll idpSetLogin       '   dll:files:idp.dll idpSetProxyMode      '   dll:files:idp.dll idpSetProxyName      )   dll:files:idp.dll idpSetProxyLogin       *   dll:files:idp.dll idpConnectControl       &   dll:files:idp.dll idpAddMessage       -   dll:files:idp.dll idpSetInternalOption       *   dll:files:idp.dll idpSetDetailedMode      (   dll:files:idp.dll idpSetComponents      %   dll:files:idp.dll idpReportError         dll:files:idp.dll idpTrace      *   dll:files:idp.dll idpAddFileSize32        +   dll:files:idp.dll idpAddFileSize32         )   dll:files:idp.dll idpGetFileSize32     )   dll:files:idp.dll idpGetFilesSize32   6    
+   STRTOBOOL_IDP   26 @16	LOWERCASE    STRTOINT    )8  ä      WIZARDVERYSILENT   26
+PARAMCOUNT   	UPPERCASE    PARAMSTR    
+9  ê      WIZARDSUPRESSMSGBOXES   26÷9  o     IDPSETOPTION
+   -1 @16 @16f<  ¨     IDPSHOWDETAILS   -1 @26    class:TCONTROL|VISIBLE@|   EXPANDCONSTANT        class:TBUTTON|CAPTION@|   SCALEY        class:TCONTROL|TOP@|   @  !      IDPDETAILSBUTTONCLICK   -1 @34/@  i     IDPFORMACTIVATE   -1 @28WIZARDSILENT   
+WIZARDFORM    !   class:TWIZARDFORM|BACKBUTTON|   WIZARDSELECTEDCOMPONENTS        class:TFORM|SHOW|      class:TCONTROL|REPAINT|      class:TFORM|HIDE|  ˜B  y      IDPSHOULDSKIPPAGE   26 @28C  J      IDPBACKBUTTONCLICK   26 @28[C  
+      IDPNEXTBUTTONCLICK   26 @28hC  &     IDPCANCELBUTTONCLICK   -1 @28 !26 !26MSGBOX      SETUPMESSAGE     "   class:TNEWSTATICTEXT|CAPTION@|   ŽD        IDPREPORTERRORHELPER   -1   ÿïÿÿ¬Èªí @34”D  ç'     IDPCREATEDOWNLOADFORM   10 @10CREATECUSTOMPAGE          class:TCONTROL|CREATE|      class:TWIZARDPAGE|SURFACE|       class:TCONTROL|PARENT@|   SCALEX        class:TCONTROL|LEFT@|       class:TCONTROL|WIDTH@|       class:TCONTROL|HEIGHT@|       class:TNEWPROGRESSBAR|MIN@|       class:TNEWPROGRESSBAR|MAX@|    #   class:TNEWSTATICTEXT|AUTOSIZE@|        class:TWINCONTROL|TABORDER@|       class:TBUTTON|ONCLICK@|    "   class:TWIZARDPAGE|ONACTIVATE@|    (   class:TWIZARDPAGE|ONSHOULDSKIPPAGE@|    )   class:TWIZARDPAGE|ONBACKBUTTONCLICK@|    )   class:TWIZARDPAGE|ONNEXTBUTTONCLICK@|    +   class:TWIZARDPAGE|ONCANCELBUTTONCLICK@|       class:TWIZARDPAGE|ID|   {l  	     IDPCONNECTCONTROLS   -1    class:TWINCONTROL|HANDLE|    !   class:TWIZARDFORM|NEXTBUTTON|       class:TNEWSTATICTEXT|FONT|       class:TFONT|HANDLE|   „q  ÿ     IDPINITMESSAGES   -1ƒ}  .      IDPDOWNLOADAFTER   -1 @10 2   dll:{tmp}\CallbackCtrl.dll wrapcallbackaddr     )   dll:{tmp}\botva2.dll ImgLoad           0   dll:{tmp}\botva2.dll ImgSetVisiblePart         0   dll:{tmp}\botva2.dll ImgGetVisiblePart     -   dll:{tmp}\botva2.dll ImgSetPosition         -   dll:{tmp}\botva2.dll ImgGetPosition     ,   dll:{tmp}\botva2.dll ImgSetVisibility      +   dll:{tmp}\botva2.dll ImgGetVisibility    -   dll:{tmp}\botva2.dll ImgSetTransparent      ,   dll:{tmp}\botva2.dll ImgGetTransparent    %   dll:{tmp}\botva2.dll ImgRelease     *   dll:{tmp}\botva2.dll ImgApplyChanges     +   dll:{tmp}\botva2.dll BtnCreate           &   dll:{tmp}\botva2.dll BtnSetText      &   dll:{tmp}\botva2.dll BtnGetText    1   dll:{tmp}\botva2.dll BtnSetTextAlignment        &   dll:{tmp}\botva2.dll BtnSetFont      .   dll:{tmp}\botva2.dll BtnSetFontColor         +   dll:{tmp}\botva2.dll BtnGetVisibility    ,   dll:{tmp}\botva2.dll BtnSetVisibility      (   dll:{tmp}\botva2.dll BtnGetEnabled    )   dll:{tmp}\botva2.dll BtnSetEnabled      (   dll:{tmp}\botva2.dll BtnGetChecked    )   dll:{tmp}\botva2.dll BtnSetChecked      (   dll:{tmp}\botva2.dll BtnSetEvent       -   dll:{tmp}\botva2.dll BtnGetPosition     -   dll:{tmp}\botva2.dll BtnSetPosition         %   dll:{tmp}\botva2.dll BtnRefresh     (   dll:{tmp}\botva2.dll BtnSetCursor      -   dll:{tmp}\botva2.dll GetSysCursorHandle    &   dll:{tmp}\botva2.dll gdipShutdown    /   dll:{tmp}\botva2.dll CreateFormFromImage      .   dll:{tmp}\botva2.dll CreateBitmapRgn        /   dll:{tmp}\botva2.dll SetMinimizeAnimation     .   dll:{tmp}\botva2.dll GetMinimizeAnimation  ±}  '     ARRAYOFANSICHARTOANSISTRING   17 @49Ø~  W   
+   BTNGETTEXT   17 @10 %   dll:user32.dll SetWindowLongA      (   dll:user32.dll CallWindowProcA        2   dll:{tmp}\callbackctrl.dll wrapcallbackaddr     2   dll:{tmp}\callbackctrl.dll wrapcallbackaddr         dll:user32.dll SetTimer          dll:user32.dll KillTimer     $   dll:user32.dll ScreenToClient    !   dll:user32.dll GetCursorPos   !   dll:user32.dll GetAncestor     &   dll:{tmp}\BASS.dll BASS_Init        4   dll:{tmp}\BASS.dll BASS_StreamCreateFile          (   dll:{tmp}\BASS.dll BASS_StreamFree    *   dll:{tmp}\BASS.dll BASS_ChannelPlay     -   dll:{tmp}\BASS.dll BASS_ChannelIsActive    *   dll:{tmp}\BASS.dll BASS_ChannelPause    3   dll:{tmp}\BASS.dll BASS_ChannelSetAttribute      /   dll:{tmp}\BASS.dll BASS_ChannelGetLength     4   dll:{tmp}\BASS.dll BASS_ChannelBytes2Seconds      3   dll:{tmp}\BASS.dll BASS_ChannelSeconds2Bytes     1   dll:{tmp}\BASS.dll BASS_ChannelGetPosition     3   dll:{tmp}\BASS.dll BASS_ChannelSetPosition       !   dll:{tmp}\BASS.dll BASS_Stop   !   dll:{tmp}\BASS.dll BASS_Free   "   dll:{tmp}\BASS.dll BASS_Start   "   dll:{tmp}\BASS.dll BASS_Pause  /  Å  
+   BASSTOTIME   16 @6PADZ     INTTOSTR    TRUNC    ô€  {  
+   BASSTIMERPROC   -1 @9 @9 @9 @9    class   ÿïÿÿ§bLK:TSTRINGS|COUNT|       class:TSTRINGS|STRINGS|   ROUND    o†  «  	   BASS_INIT   -1 @16
+FILEEXISTS    EXTRACTTEMPORARYFILE         class:TSTRINGLIST|CREATE|     class:TSTRINGS|CLEAR|  	FINDFIRST        class:TSTRINGS|ADD|  ADDBACKSLASH    EXTRACTFILEPATH    FINDNEXT   	FINDCLOSE      w      BASS_DEINIT   -1    class:TOBJECT|FREE|  ‘  b  
+   BASSCHANGEPOS   -1 @9    class:TCONTROL|HINT@|   ó  e     BASSVOLUMEMAXCLICK   -1 @10X“  e     BASSVOLUMEMINCLICK   -1 @10½•  ó      BASS_TBGETPOSITION   9°–  X      GETCURPOINT   52 @10—    
+   BASSTBPROC   10 @10 @10 @10 @10'›  2      BASSTBMOUSEDOWN   -1 @10Y›     
+   BASSTBMOUSEUP   -1 @10j›  ÿ     BASSBARCLICK   -1 @34    class:+    class:TCONTROL|PARENT|   i¡       BASSBARMOVE   -1 @34 @60 @10 @10‚¢  ¾     BASS_CREATEMEDIAPLAYER*   -1 @40 @16 @16 @16 @16 @16 @10 @10 @10 @26    class:TLABEL|AUTOSIZE@|       class:TCONTROL|SETBOUNDS|          class:TLABEL|TRANSPARENT@|       class:TCONTROL|CURSOR@|       class:TLABEL|ONCLICK@|       class:TCONTROL|SHOWHINT@|       class:TLABEL|ONMOUSEMOVE@|   @³  ´      BASS_ONOFFCLICK   -1 @10ô³  Š     BASS_CREATEONOFFBUTTON   -1 @40 @16 @10 @10 @10 @10 @10 .   dll:kernel32.dll CreateFileMappingA          (   dll:kernel32.dll MapViewOfFile             dll:kernel32.dll lstrcpyA      &   dll:kernel32.dll UnmapViewOfFile     "   dll:kernel32.dll CloseHandle     '   dll:shell32.dll SHChangeNotify         #   dll:{tmp}\wintb.dll WintbStart    "   dll:{tmp}\wintb.dll WintbStop    1   dll:{tmp}\wintb.dll SetTaskBarProgressValue     1   dll:{tmp}\wintb.dll SetTaskBarProgressState     2   dll:{tmp}\CallbackCtrl.dll wrapcallbackaddr     &   dll:kernel32.dll GetLogicalDrives    $   dll:kernel32.dll GetDriveTypeA    ~µ  ×     NOSD   16 @16COPY      U¸  -     REDESIGNWIZARDFORM   -1 (   class:TWIZARDFORM|GROUPBROWSEBUTTON|       class:TCONTROL|ENABLED@|    #   class:TWIZARDFORM|NOICONSCHECK|       class:TCHECKBOX|CHECKED@|        class:TWIZARDFORM|GROUPEDIT|    $   class:TWIZARDFORM|SELECTDIRPAGE|       class:TCONTROL|TOP|       class:TCHECKBOX|CAPTION@|       class:TCONTROL|WIDTH|   ‚½        DESKTOPICON   26    class:TCHECKBOX|CHECKED|    ½  ¹     SITE2LABELONCLICK   -1 @34ACTIVELANGUAGE   	SHELLEXEC         Y¿  >      SITE2LABELMOUSEDOWN   -1 @34 @66 @60 @10 @10    class:TLABEL|FONT|       class:TFONT|COLOR@|   —¿  >      SITE2LABELMOUSEUP   -1 @34 @66 @60 @10 @10Õ¿  >      SITE2LABELMOUSEMOVE   -1 @34 @60 @10 @10À  >      SITE2LABELMOUSEMOVE2   -1 @34 @60 @10 @10QÀ  Ê      SITE3LABELONCLICK   -1 @34Á  >      SITE3LABELMOUSEDOWN   -1 @34 @66 @60 @10 @10YÁ  >      SITE3LABELMOUSEUP   -1 @34 @66 @60 @10 @10—Á  >      SITE3LABELMOUSEMOVE   -1 @34 @60 @10 @10ÕÁ  >      SITE3LABELMOUSEMOVE2   -1 @34 @60 @10 @10 .   dll:files:innocallback.dll wrapcallback          dll:user32.dll SetTimer           dll:user32.dll KillTimer      %   dll:user32.dll GetSystemMetrics    Â  A     ISANSI   26 @16
+ANSIUPPERCASE    
+COMPARESTR     
+ANSILOWERCASE    TÃ  ;     NEXTBUTTONCLICK   26 @10    class:TWIZARDFORM|DIREDIT|       class:TEDIT|TEXT|   Ä  Ç      SHOULDSKIPPAGE   26 @10VÅ  ¨     INITIALIZEWIZARD   -1    class:TCONTROL|HEIGHT|       class:TLABEL|CAPTION@|       class:TLABEL|ONMOUSEDOWN@|       class:TLABEL|ONMOUSEUP@|   þà  n      DEINITIALIZESETUP   -1 (   dll:files:ISDone.dll wrapcallback     0   dll:files:ISDone.dll ISArcExtract             -   dll:files:ISDone.dll IS7zipExtract         ,   dll:files:ISDone.dll ISRarExtract         /   dll:files:ISDone.dll ISPrecompExtract        ,   dll:files:ISDone.dll ISSrepExtract        2   dll:files:ISDone.dll ISxDeltaExtract            )   dll:files:ISDone.dll ISPackZIP         1   dll:files:ISDone.dll ShowChangeDiskWindow      "   dll:files:ISDone.dll Exec2      (   dll:files   ÿïÿÿ…t¾Ø:ISDone.dll ISFindFiles     ,   dll:files:ISDone.dll ISPickFilename      $   dll:files:ISDone.dll ISGetName    %   dll:files:ISDone.dll ISFindFree    (   dll:files:ISDone.dll ISExec           %   dll:files:ISDone.dll SrepInit      (   dll:files:ISDone.dll PrecompInit      )   dll:files:ISDone.dll FileSearchInit    ,   dll:files:ISDone.dll ISDoneInit            $   dll:files:ISDone.dll ISDoneStop    )   dll:files:ISDone.dll ChangeLanguage    %   dll:files:ISDone.dll SuspendProc    $   dll:files:ISDone.dll ResumeProc   lá  !     PROGRESSCALLBACK   9 @10 @10 @3 @3 @3 @3 $   class:TNEWPROGRESSBAR|POSITION@|   MINIMIZEPATHNAME      å  ¸      CANCELBUTTONONCLICK   -1 @34Eæ  ®      HIDECONTROLS   -1 $   class:TWIZARDFORM|FILENAMELABEL|       class:TCONTROL|HIDE|  óæ  k     CREATECONTROLS   -1 %   class:TWIZARDFORM|INSTALLINGPAGE|    $   class:TWIZARDFORM|PROGRESSGAUGE|       class:TCONTROL|BRINGTOFRONT|   #   class:TWIZARDFORM|FINISHEDPAGE|       class:TFONT|STYLE@|    #   class:TWIZARDFORM|CANCELBUTTON|   ^ó  @     CURPAGECHANGED   -1 @10    class:TWIZARDFORM|RUNLIST|    (   class:TNEWCHECKLISTBOX|ITEMENABLED@|    $   class:TWIZARDFORM|FINISHEDLABEL|       class:TCONTROL|SHOW|      class:TFORM|CAPTION@|   žø     
+   CHECKERROR   26°ø  w     CURSTEPCHANGED   -1 @77 "   class:TWIZARDFORM|STATUSLABEL|   ISCOMPONENTSELECTED    MAINFORM   SETINISTRING       	DIREXISTS    DELTREE            !    2    
+    
+    
+    5    5    6    
+    
+    	    ?    3    3    3    3    	    
+    6    C    3    3    3    3    3        G    
+            	          ` þÿÿ_   `         `   `      true   `     ÿÿÿ_   ¾        `   `   t   `     ÿÿÿ_   ‰        `   `      yes   `     ÿÿÿ_   N        `   `   y   `     ÿÿÿ_           `   `      false   `     ÿÿÿ_    Ü         `   `   f   `     ÿÿÿ_    §         `   `      no   `     ÿÿÿ_    m         `   `   n   `     ÿÿÿ_    8   
+          ` þÿÿ_   `    ÿÿÿ_   `
+       	
+       `
+         
+      `!      `   `   `      `            
+       `   `   `#      `"       `   `   `   `      /VERYSILENT   `
+     ÿÿÿ_   	   `Cÿÿÿ  ÿÿÿ_    	
+       `
+         
+      `!      `   `   `–      `            
+       `   `   `#      `"       `   `   `   `      /SUPPRESSMSGBOXES   `
+     ÿÿÿ_   	   `=ÿÿÿ  ÿÿÿ_    	          ` ÿÿÿ_   `         `   `      detailedmode   `&          ` þÿÿ_          ó        `   `      detailsvisible   `&          ` þÿÿ_          ˜        `   `   
+   detailsbutton   `0          ` þÿÿ_               4        `   `   
+   skinnedbutton   `0          ` þÿÿ_               Ð         `   `      retrybutton   `w   
+          ` þÿÿ_   `            `
+              ` þÿÿ_       `      RetryButton   '          ` þÿÿ_       ` ÿÿÿ_   	       ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `    	   '          ` ÿÿÿ_       `    
+   '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `    
+   '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '          ` ÿÿÿ_       `       '            ÿÿÿ_       `          `š             `      {cm:IDP_HideButton}   `(          `       )   
+   
+       `
+   ¸      `*          `       +   ˜             `         ÿïÿÿa
+K^{cm:IDP_DetailsButton}   `(          `       )   
+   
+       `
+   ,      `*          `       +          ` ÿÿÿ_   	       `          `&   	      `.      `7          `   0       `      RetryButton%         `$      `>          `      none       `      ErrorDialog          `         `   `d             `      {cm:IDP_RetryButton}   `(      #      `/      `0   )          `       &          `         `       `       '             `       `1            `       `         `
+            `.      `\   #      `/   2   #      `/   3         `   #      `/   4         	          `       `1      
+      `    ÿÿÿ_   `
+           ÿÿÿ_      `    ÿÿÿ_   `	       `         `   `        ÿÿÿ_         ÿÿÿ_   	  ÿÿÿ_   	   
+   
+       `
+      $       `$      %       `%   N   `:      `9      `   `
+         `•             `      {cm:IDP_CancellingDownload}   `(          `       ;   #      `/   3   
+     þÿÿ_     ýÿÿ_         þÿÿ_    	   	          `      {cm:IDP_FormDescription}   `(             `      {cm:IDP_FormCaption}   `(   
+       ` þÿÿ_        >   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A   
+   
+       `
+          `B          `   `C   
+   
+       `
+         `*          `   `+   
+   
+       `
+   š     `B          `   `D   
+   
+       `
+         `*          `   `E   
+       `
+              `   `F   
+       `
+   d          `   `G   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `      {cm:IDP_TotalProgress}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+          `*          `   `+   
+   
+       `
+   È      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `      {cm:IDP_CurrentFile}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+   0      `*          `   `+   
+   
+       `
+   È      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A   
+   
+       `
+          `B          `   `C   
+   
+       `
+   @      `*          `   `+   
+   
+       `
+   š     `B          `   `D   
+   
+       `
+         `*          `   `E   
+       `
+              `   `F   
+       `
+   d          `   `G   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   "     `B          `   `C   
+   
+       `
+          `*          `   `+   
+   
+       `
+   x      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I      ÿïÿÿæT½='       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   "     `B          `   `C   
+   
+       `
+   0      `*          `   `+   
+   
+       `
+   x      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `   
+   {cm:IDP_File}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+   d      `*          `   `+   
+   
+       `
+   t      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `      {cm:IDP_Speed}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+   t      `*          `   `+   
+   
+       `
+   t      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	          	   ?          `    	   (   )          `           `@       `   `       `   `A             `      {cm:IDP_Status}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+   „      `*          `   `+   
+   
+       `
+   t      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	          
+   ?          `    
+   (   )          `           `@       `   `       `   `A             `      {cm:IDP_ElapsedTime}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+   ”      `*          `   `+   
+   
+       `
+   t      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+   	          `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `      {cm:IDP_RemainingTime}   `(          `   `;   
+   
+       `
+          `B          `   `C   
+   
+       `
+   ¤      `*          `   `+   
+   
+       `
+   t      `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+   
+          `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   x      `B          `   `C   
+   
+       `
+   d      `*          `   `+   
+   
+       `
+        `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	          
+   ?          `    
+   (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   x      `B    ÿïÿÿl?         `   `C   
+   
+       `
+   t      `*          `   `+   
+   
+       `
+        `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   x      `B          `   `C   
+   
+       `
+   „      `*          `   `+   
+   
+       `
+        `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+   
+          `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   x      `B          `   `C   
+   
+       `
+   ”      `*          `   `+   
+   
+       `
+        `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A          `              `   `;   
+   
+       `
+   x      `B          `   `C   
+   
+       `
+   ¤      `*          `   `+   
+   
+       `
+        `B          `   `D   
+   
+       `
+         `*          `   `E          `           `   `H   
+       `
+             `   `I   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `      {cm:IDP_DetailsButton}   `(          `   `)   
+   
+       `
+   P     `B          `   `C   
+   
+       `
+   ¸      `*          `   `+   
+   
+       `
+   K      `B          `   `D   
+   
+       `
+         `*          `   `E   
+       `
+             `   `I   *       `*   ,          `   `J   '       `        	       `	             ?          `       (   )          `           `@       `   `       `   `A             `      You must not see this button   `(          `   `)   
+   
+       `
+          `B          `   `C   
+   
+       `
+          `*          `   `+   
+   
+       `
+   
+      `B          `   `D   
+   
+       `
+   
+      `*          `   `E   
+       `
+             `   `I          `           `   `'   *       `*   <          `   `J          `        +       `+   -          `   `K   ,       `,   5          `   `L   -       `-   6          `   `M   -       `-   7          `   `N   .       `.   8          `   `O          `         ÿÿÿ_P   	
+          `          `R          `      TotalProgressLabel   
+          `          `R          `      TotalProgressBar   
+          `          `R          `      FileProgressBar   
+          `          `R          `      TotalDownloaded   
+          `          `R          `      FileDownloaded   
+          `          `R          `      FileName   
+          `    
+      `R          `      Speed   
+          `          `R          `      Status   
+          `          `R          `      ElapsedTime   
+          `          `R          `   
+   RemainingTime   ÿïÿÿf*X»   
+          `          `R          `      InvisibleButton   
+   )          `           `@      `R          `   
+   WizardPage   
+   #      `/      `R          `   
+   WizardForm   
+      #      `/      `0      `R          `   
+   BackButton   
+      #      `/      `S      `R          `   
+   NextButton   
+   /          `          `T      `U          `   	   LabelFont   	          `      {cm:IDP_TotalProgress}   `(          `      Total progress             `      {cm:IDP_KBs}   `(          `      KB/s             `      {cm:IDP_MBs}   `(          `      MB/s             `      {cm:IDP_X_of_X}   `(          `      %.2f of %.2f             `      {cm:IDP_KB}   `(          `      KB             `      {cm:IDP_MB}   `(          `      MB             `      {cm:IDP_GB}   `(          `      GB             `      {cm:IDP_Initializing}   `(          `      Initializing...             `      {cm:IDP_GettingFileInformation}   `(          `      Getting file information...             `      {cm:IDP_StartingDownload}   `(          `      Starting download...             `      {cm:IDP_Connecting}   `(          `   
+   Connecting...             `      {cm:IDP_Downloading}   `(          `      Downloading...             `      {cm:IDP_DownloadComplete}   `(          `      Download complete             `      {cm:IDP_DownloadFailed}   `(          `      Download failed             `      {cm:IDP_CannotConnect}   `(          `      Cannot connect             `      {cm:IDP_Unknown}   `(          `      Unknown             `      {cm:IDP_DownloadCancelled}   `(          `      Download cancelled             `      {cm:IDP_HTTPError_X}   `(          `   
+   HTTP error %d             `      {cm:IDP_400}   `(          `      400             `      {cm:IDP_401}   `(          `      401             `      {cm:IDP_404}   `(          `      404             `      {cm:IDP_407}   `(          `      407             `      {cm:IDP_500}   `(          `      500             `      {cm:IDP_502}   `(          `      502             `      {cm:IDP_503}   `(          `      503             `      {cm:IDP_RetryButton}   `(          `      Retry             `      {cm:IDP_IgnoreButton}   `(          `      Ignore      %       `%      `:          `      Cancel             `      {cm:IDP_FilesNotDownloaded}   `(          `   (   The following files were not downloaded:             `      {cm:IDP_RetryNext}   `(          `   z   Check your connection and click 'Retry' to try downloading the files again, or click 'Next' to continue installing anyway.             `      {cm:IDP_RetryCancel}   `(          `   q   Check your connection and click 'Retry' to try downloading the files again, or click 'Cancel' to terminate setup.   	
+   
+       ` ÿÿÿ_   `=   Q   V   	
+       `
+         ÿÿÿ_                 ` þÿÿ_	   
+       `   `   `
+           `   `   `  `  `   `   `          `       ` ÿÿÿ_       ` þÿÿ_	   
+       `   `   `
+           `   `   `  `  `    `   `  ÿÿÿ_   `    `
+      ÿÿÿ	1   
+          `   `
+       ` þÿÿ_   `f   1       `   ` ÿÿÿ_{   	      
+       `
+         
+          ` þÿÿ_   `™       ÿïÿÿ8¥m  `
+        `˜      `—       `   `    `   :      
+       `
+         
+          ` þÿÿ_   `™      `
+        `
+   <      `˜      `—       `   `    `   `    `   :      
+       `
+         
+          ` þÿÿ_   `™      `
+   <      `˜      `—       `   `    `   `  ÿÿÿ_   `	
+   
+   
+   
+   
+      	   	       `          `Š      `   `
+       J      `   
+   6     	  `       `›      `   `
+         `   `   `,         
+         
+   6       `       `›       `         `   `          
+          	       `          `ˆ   	   	       `
+       	       `
+       	     	  `
+       	     
+  `
+       	       `
+             
+       `      6       `     
+  `œ       ` 
+  `     
+  `       `‡              `          `    	       `          `‰   	       `
+       	   	       `
+       	     	  `          `   	       `             Ž      	   	       `          `Š      `   `
+      H      `   
+       ` 	      `
+         `   `
+          `   `   `ó  	       `
+       	   	       `
+       	     	  `          `   	       `             Ž                `         `          `   `
+       `         `         `   `    `   `   `          `   `       `   `       `   `     	  `   `
+     
+  `      ]         `   `   `   `x   
+       `   `
+       `   `
+       `   `
+     	  `   `
+     
+  `      \   
+       `      c   	:   	                `      {tmp}\Bass.dll   `(      `Ÿ      `   `"          `      Bass.dll                 `      {tmp}\callbackctrl.dll   `(      `Ÿ      `   `*          `      callbackctrl.dll    	       `	   6       ¡   6       `    ¢          ` ÿÿÿ_ ÿÿÿ_(             `   `       ` ÿÿÿ_   `£      `4    ÿÿÿÿÿÿÿÿ#        	       `  `      `
+         `   `
+          `Š   
+                    	  ` ÿÿÿ_   `¦      `¥       `   `    `  `        `   `6       `       `¤          `   `   `§      `ýþÿÿ   `        `   `¨     	   
+              
+          
+       `
+       
+       `
+       	       `
+       	       `
+   D¬  
+       `
+   ÿÿÿÿ   `†         `”      
+   6       `       `›      `   `
+         `       `
+              `
+      	   	       `   `	       `
+       	       `
+       	       `
+       	       `
+             
+       `      6       `     
+  `œ     	  ` 
+  `     
+  `       `‡              `          `    	       `          `‰   	       `
+       	   	       `
+       	       `          `   	       `             Ž   	   
+       `
+      8       `8   š      `€   	       `
+   d   	       `
+       	       `
+                       
+   d                `         `          È@    `   `	       `
+      	       `          `Œ              	      `’         `“   	   	       `      	       `
+          `‚   6       `    ª   	
+   
+   
+   
+   
+           ÿÿÿ_      `      
+          `,      	       `          `‹   ÿ      	   	       `          `Š      `   `
+         `9             `    	       `          `‰                `         `          È@    `   `	       `
+      	     	  `          `Œ      
+       `         ` ÿÿÿ_   `
+   d       `   `   `          `   `       `   ÿïÿÿìFòm   `       `   `     	  `   `
+     
+  `      ]          `   
+      `{             `      Volume:    
+     	  `         `˜       `   `    `   `3       `      ¬         `   `   `   `x   
+       `   `
+       `   `
+       `   `
+     	  `   `
+     
+  `      \   
+       `      c   	
+   
+   
+   
+   
+          
+            `      
+   d      `          
+   d   
+       `      
+      
+   
+     
+  `       
+  `        	  ` 
+  ` 	  `
+   d       ` 	  `   `       `   `    `   `         `   `          `   `   `       `               `   `          `   `   `       `             `   `       `   `       `   `     	  `   `
+     
+  `      q   
+       `   `
+       `   `
+       `   `
+     	  `   `
+     
+  `      r   	       `      «   	
+   
+   
+   
+   
+         
+            `      
+          `          
+       
+       `      
+      
+   
+     
+  `       
+  `        	  ` 
+  ` 	  `
+   d       ` 	  `   `       `   `    `   `         `   `          `   `   `       `               `   `          `   `   `       `             `   `       `   `       `   `     	  `   `
+     
+  `      q   
+       `   `
+       `   `
+       `   `
+     	  `   `
+     
+  `      r   	       `      «   	
+   
+   
+   
+          `   `       `   `       `   `       `   `
+     	  `      q   
+      
+   
+       `   `   `          `   `   `
+   d      `          `   `   `     ÿÿÿ_   `	          ` ÿÿÿ_   `„             ` ÿÿÿ_
+       ` þÿÿ_   `ƒ   	
+   
+   
+   
+   4   
+         ` ýÿÿ_
+         `M   
+   
+       `      
+     	  `
+   üÿÿÿ
+     
+  ` þÿÿ_   `}   
+       ` ûÿÿ_
+       ` üÿÿ_	     	  ` ýÿÿ_
+     
+  ` þÿÿ_
+       `       ÿÿÿ_~   
+       ` ýÿÿ_      `
+   G      `      `	    	  `¯   «   Õ     `
+         `¶     `     	  `       	  `  	     	  `
+      
+     
+  ` þÿÿ_   `…   
+     	  `   `   `°        	  `   `     
+  `   `       `   `       `   `
+     
+  ` þÿÿ_q   
+     	  `  `         
+  `     
+  `
+  `	    
+  `
+  `     	  ` 
+  `    ` 	  `       
+  `   `        	  ` 
+  ` 	  `       `             
+  `   `        	  ` 
+  ` 	  `       `      
+     	  `   `
+     
+  `   `
+       `   `
+       `   `
+     
+  ` þÿÿ_r      
+     
+  `        	  `_    	  `
+     
+  `       ^      
+     
+  `        	  `_    	  `
+     
+  `       ^   
+     	  `   `c       	
+       ` ÿÿÿ_   	   °             	           	4      	   
+   
+   
+   
+           	  `   `   `„           	  `   `
+   (   3   	     
+  `	   3   "       ` ÿÿÿ_   `µ      `¶    
+  `R      `ƒ   "       ` ÿÿÿ_    	  `         `   	  `     
+  `   `       `   `       `   `     
+  `   `
+       `      q            `  `            
+  `   ` 
+  `      `                   `  `            
+  `   ` 
+  `      `          
+      
+   
+     
+  `  `     
+  `          ` 
+  `   `
+   d   
+     
+  `       
+  `         ` 
+  `    `   ` 
+  `       ` 
+  `
+     
+  `   `
+       `   `
+       `   `
+     
+  `  `    
+       `      r   	     
+  `   `«   „   	  `         `e   	  `     
+  `   `       `   `       `   `     
+  `   `
+       `      ]            `  `            
+  `   ` 
+  `      `                   `  `            
+  `    ÿïÿÿšHb¬  ` 
+  `      `          
+     
+  `  `     
+  `          ` 
+  `
+     
+  `   `
+       `   `
+       `   `
+     
+  `   `
+       `      \      	       `   `   `        
+  `   ` 
+  `          ` 
+  `	   	       `
+       	       `
+       	          `   `	       `        
+  `   	       `        
+  `‘       
+   (   3   	       `	   3   "       ` ÿÿÿ_ 
+  `µ    	  `¶      `R   c   	          `   
+      `ò      
+       ` ýÿÿ_   `          `   `   `          `   `                `   `   `–       `   `    `       /           `         `–       `   `    `   `3       `      ¬   	
+   
+    	   
+          ` ÷ÿÿ_   `
+   -   
+       ` ùÿÿ_    `
+   
+       `
+            B                
+   
+       `   `   `B             `    `      
+   
+       `
+         `B       `   `
+       `   `      B   (       ` ÿÿÿ_      R       
+    öÿÿ_
+       ` ùÿÿ_      B   
+       ` ùÿÿ_    ` ÷ÿÿ_      B           ÷ÿÿ_(       ` ÿÿÿ_      R       
+    öÿÿ_       `    
+       `
+                   ` þÿÿ_   `(       `   `
+   
+       `
+         `*   
+   
+       `
+         `B   
+   
+     	  ` øÿÿ_ 	  `
+         `*   
+   
+     
+  `   ` 	  `B   
+   (       ` ÿÿÿ_ 
+  `R       d   	   
+       `
+      0       `0   ­      `X   
+       `
+      
+       `    p          `           `   
+   
+       `
+         `*   
+   
+       `   `   `B   
+   
+       ` øÿÿ_    `
+         `*   
+       `      
+   
+     
+  `
+       	  `B       ` 	  `             ` üÿÿ_ 
+  `(     	  ` 
+  `
+   (       ` ÿÿÿ_ 
+  `R          Y          `           `   
+   
+       `
+         `*   
+   
+       `   `   `B   
+   
+       ` øÿÿ_    `
+         `*   
+       `      
+   
+     
+  `
+       	  `B       ` 	  `             ` ûÿÿ_ 
+  `(     	  ` 
+  `
+   (       ` ÿÿÿ_ 
+  `R         Y          `    
+       `
+                   ` úÿÿ_   `(       `   `
+   
+       `
+         `*   
+   
+       `
+         `B   
+   
+     	  ` øÿÿ_  	  `
+         `*   
+     	  `      
+   (       ` ÿÿÿ_ 
+  `R         d   	   
+       `
+      0       `0   ²      `X   
+       `
+      
+       `      p   	   
+       `
+      0       `0   ³      `X   
+       `
+      
+       `      p   '       ` ÿÿÿ_	       `	   3         ?          `             `    3       `   `¹   
+   
+       `
+         `*   
+   
+       `   `    `
+         `B   
+   
+       ` øÿÿ_    `
+         `*   
+       `      3       `   `º          `   3       `   `»   
+       `
+      3       `   `¼   *       `*   ´   3       `   `½   (       ` ÿÿÿ_3       `   `A          ` öÿÿ_3       `   `¾   '       ` ÿÿÿ_	       `	   3         ?          `             `    3       `   `¹   
+   
+       `
+         `*   
+   
+       ` ÷ÿÿ_   `B   
+   
+       ` øÿÿ_    `
+         `*   
+       `      3       `   `º          `   3       `   `»   
+       `
+      3       `   `¼   *       `*   ´   3       `   `½          ` öÿÿ_   `+   =       `=   ·   3       `   `¿   (       ` ÿÿÿ_3       `   `A          ` öÿÿ_3       `   `¾          `    
+       `
+                   ` ýÿÿ_   `(       `   `
+   
+       `
+         `*   
+   
+       `
+   
+      `B   
+   
+     	  ` øÿÿ_  	  `
+      ÿïÿÿ:@6      `*   
+   
+     
+  ` ùÿÿ_ 	  `B   
+   (       ` ÿÿÿ_ 
+  `R       d   	   
+       `
+      0       `0   ®      `X   
+       `
+      
+       `    p   
+   	   
+       `
+      7       `7   ±      `       `   `
+       `
+   üÿÿÿ
+       `            }          `           `   
+   
+       `
+         `*   
+   
+       ` ÷ÿÿ_   `B   
+   
+       ` øÿÿ_    `
+         `*   
+   
+     	  ` ùÿÿ_   `B                ` üÿÿ_ 
+  `(     	  ` 
+  `
+   (       ` ÿÿÿ_ 
+  `R          Y          `           `   
+   
+       `
+         `*   
+       `
+       
+   
+       ` øÿÿ_    `
+         `*   
+   
+     	  ` ùÿÿ_   `B                ` ûÿÿ_ 
+  `(     	  ` 
+  `
+   (       ` ÿÿÿ_ 
+  `R         Y   
+   (       ` ÿÿÿ_   `R   c   	   	   	       `          `Š      `   `
+         `>             `    	       `          `‰   '      	       `          `‹   	 	   
+             `   
+       ` ùÿÿ_             ` þÿÿ_   `(       `   `
+   
+       ` úÿÿ_   `*   
+   
+       ` ûÿÿ_   `B   
+   
+       ` üÿÿ_   `*   
+   
+       ` ýÿÿ_   `B   
+   (     	  ` ÿÿÿ_   `R       d   	   
+       `
+      0       `0   À      `X   
+       `
+      
+       `    p   	
+   
+   
+   	             `      {sd}   `(     ÿÿÿ_   `	      `Í       `   `      `   `
+          `I      `
+            `   `
+   @        `    `   `   `
+            `   `
+         `¸           
+     
+  `
+   @     
+  `   `  	  ` 
+  `    ` 	  `    `   :    `   `   `Î         `   `
+         `$           
+     
+  `
+   @     
+  `   `  	  ` 
+  `    ` 	  `      
+       `
+      
+       `
+           
+  `   ` 
+  `Ð     	  ` 
+  `   `   ` 	  `   ``         
+     	  `
+   @     	  `   `    ` 	  `    `   `    `   :  ÿÿÿ_   `      `
+         `Ìýÿÿ	       `       #      `/      `Ò   Ó          `   ?   #      `/      `Ô   Õ   (   )   #      `/      `×       `   `@   #      `/      `Ö   A   (   )   #      `/      `×       `   `   #      `/      `Ò   A   
+   @   #      `/      `Ö      `Ø   
+   
+       `
+   2      `*       `   `@   #      `/      `Ö   +   
+      #      `/      `Ò      `Ø   
+   
+       `
+   2      `*       `   `   #      `/      `Ò   +   (   )   #      `/      `×       `   `?   #      `/      `Ô   A   
+   @   #      `/      `Ö      `Ø   
+   
+       `
+         `*       `   `?   #      `/      `Ô   +   '   #      `/       `   `	       `	   ?       ?          `              `      {cm:CreateDesktopIcon}   `(   ?       `   `Ù   (   )   #      `/      `×       `   `?       `   `A   
+   ?   #      `/      `Ô      `Ú   ?       `   `D          `   ?       `   `Õ   
+   @   #      `/      `Ö      `Ø   
+   
+       `
+   2      `*       `   `?       `   `+   	?       `     ÿÿÿ_Ü   	
+            `Þ      `   `      russian   `¼             `   `A       `A    
+       `
+             `              `              `      http://bit.ly/2t5USA3     	  `      open   `ß   ·             `   `A       `A    
+       `
+             `              `              `      http://bit.ly/2t5SPfC     	  `      open   `ß   	
+       `
+   ÿ   /   3       ÿïÿÿQëLd   `       `á   â   	
+       `
+     ÿ /   3       `       `á   â   	
+       `
+     ÿ /   3       `       `á   â   	
+       `
+     ÿ /   3       `       `á   â   	
+             `   `A       `A    
+       `
+             `              `              `   "   http://bit.ly/fitgirl-repacks-site     	  `      open   `ß   	
+       `
+   ÿ   /   3       `       `á   â   	
+       `
+     ÿ /   3       `       `á   â   	
+       `
+     ÿ /   3       `       `á   â   	
+       `
+     ÿ /   3       `       `á   â   	             ` þÿÿ_   `ð          ` þÿÿ_   `"      
+          `   `       `   `   `ñ      `   `
+          `¡          ` þÿÿ_   `          ` þÿÿ_   `ò      
+          `   `       `   `   `ñ      `   `
+          `     ÿÿÿ_   	  ÿÿÿ_         ` þÿÿ_
+         `        E   #      `/      `ô      `õ      `ï      `   `­   
+   
+       `
+       $       `$          `   S   Â ïóòè óñòàíîâêè ïðèñóñòâóþò ðóññêèå ñèìâîëû.
+
+Ìîæíî èñïîëüçîâàòü òîëüêî ëàòèíñêèå.   `9     ÿÿÿ_    	      ` þÿÿ_
+   
+   '      `      ` þÿÿ_
+         `   `'      `      ` þÿÿ_
+   	      `   `'      `      ` þÿÿ_
+         `   `   `     ÿÿÿ_   	       `   
+   Init_MapFile_	       `
+      	       `
+       	       `
+      
+       `
+       
+       `
+   ÿÿÿÿ 
+   Â         ` 
+   
+          `×   	       `
+      	       `
+       	       `
+       	       `
+     
+       ` 
+       Ã         `    
+          `?             `      Global\	       `       `Ä          `   	   wintb.dll    È   
+       `
+       Ê   
+       `
+      Ë   Ñ   '   #      `/       `   `	       `	   3    
+   ?   
+   #      `/      `Ú   3       ` 
+   D   
+   #      `/      `ø   3       ` 
+   E          `   3       ` 
+   ¹          `   3       ` 
+   »   =       `=   å   3       ` 
+   ¿   (   #      `/       `   `3       ` 
+   A   '   #      `/       `   `	       `	   3       ?   
+       `
+   ª   3       `    C   
+       `
+   J  3       `    +   
+       `
+      3       `    ¼   
+       `
+     ÿ /   3       `       `á   â             `      {cm:TypeCustomGameInfo}   `(   3       `    ù   *       `*   Ý   3       `    ½   F       `F   à   3       `    ú   F       `F   ã   3       `    û   =       `=   ä   3       `    ¿   (   #      `/       `   `3       `    A   '   #      `/       `   `	       `	   3       ?   
+   #      `/      `Ú   3       `    D   
+   #      `/      `ø   3       `    E          `   3       `    ¹          `   3       `    »   =       `=   å   3       `    ¿   (   #      `/       `   `3       `    A   '   #      `/       `   `	       `	   3       ?   
+       `
+   F   3       `    C   
+       `
+   D  3       `    +   
+       `
+      3       `    ¼   
+       `
+     ÿ /   3       `       `á   â             `   4   {cm:TypeCustomMyRepacks1}
+{cm:TypeCustomMyRepacks2}   `(   3       `    ù   *       `*   æ   3       `    ½   F       `F   ç   3       `    ú   F       `F   è   3       `    û   =       `=   é   3       `    ¿   (   #      `/       `   `3       `    A          `      physx          `   (   {tmp}\PhysX-9.13.1220-SystemSoftware.msi   `(          `   R   http://us.download.nvidia.com/Windows/9.13.1220/PhysX-9.13.1220-System   ÿïÿÿý…†Software.msi          `      dotnet35          `      {tmp}\dotnetfx35.exe   `(          `   `   http://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe          `   
+   dotnet35cp          `      {tmp}\DotNetFx35Client.exe   `(          `   f   http://download.microsoft.com/download/c/d/c/cdc0f321-4f72-4a08-9bac-082f3692ecd9/DotNetFx35Client.exe          `      dotnet4full          `   !   {tmp}\dotNetFx40_Full_x86_x64.exe   `(          `   m   http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe          `   	   dotnet451          `   ,   {tmp}\NDP451-KB2858728-x86-x64-AllOS-ENU.exe   `(          `   x   http://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe          `      vc_2005_sp1_x86          `   #   {tmp}\vcredist_x86_2005_sp1_x86.exe   `(          `   b   http://download.microsoft.com/download/e/1/c/e1c773de-73ba-494a-a5ba-f24906ecf088/vcredist_x86.exe          `      vc_2008_sp1_x64          `   #   {tmp}\vcredist_x64_2008_sp1_x64.exe   `(          `   b   http://download.microsoft.com/download/2/d/6/2d61c766-107b-409d-8fba-c39e61ca08e8/vcredist_x64.exe          `      vc_2008_sp1_x86          `   #   {tmp}\vcredist_x86_2008_sp1_x86.exe   `(          `   b   http://download.microsoft.com/download/d/d/9/dd9a82d0-52ef-40db-8dab-795376989c03/vcredist_x86.exe          `      vc_2010_sp1_x64          `   #   {tmp}\vcredist_x64_2010_sp1_x64.exe   `(          `   b   http://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe          `      vc_2010_sp1_x86          `   #   {tmp}\vcredist_x86_2010_sp1_x86.exe   `(          `   b   http://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe          `      vc_2012_x64          `      {tmp}\vcredist_x64_2012_x64.exe   `(          `   h   http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe          `      vc_2012_x86          `      {tmp}\vcredist_x86_2012_x86.exe   `(          `   h   http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe          `      vc_2013_x64          `      {tmp}\vcredist_x64_2013_x64.exe   `(          `   b   http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe          `      vc_2013_x86          `      {tmp}\vcredist_x86_2013_x86.exe   `(          `   b   http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe          `      vc_2015_x64          `      {tmp}\vcredist_x64_2015_x64.exe   `(          `   c   http://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe          `      vc_2015_x86          `      {tmp}\vcredist_x86_2015_x86.exe   `(          `   c   http://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe          `      BASS.dll           `      cls-lolz.dll           `   
+   cls-lolzi.dll           `      cls-lolzi_x64.exe           `      cls-lolzi_x86.exe           `   
+   cls-lolzx.dll           `      cls-lolzx_x64.exe           `      cls-lolzx_x86.exe           `      cls-srep_x64.exe           `      cls-srep_x86.exe           `      arc.ini           `      CLS.ini           `      CallbackCtrl.dll           `   
+   botva2.dll           `      MusicButton.png           `   ÿïÿÿAÈc
+   	   music.mp3           `      cls-lzo1xl.dll           `      mpz.exe           `      MpzSlimmer.dll           `      {tmp}\music.mp3ž   
+       `
+      
+       `
+   $   
+       `
+   $   
+       `
+   @  
+       `
+             `      {tmp}\MusicButton.png(   #      `/       `   `Á   
+       `
+   
+   W   	      `    
+          `F      	       `       `Å      
+       ` 
+      `Æ   	      ` þÿÿ_
+   è     `'   
+       ` þÿÿ_       `      
+       ` þÿÿ_   `
+   
+   Ê   
+       `
+      Ë            
+       ` þÿÿ_   `
+   
+      `˜       `   `    `   .      
+       `
+   0   
+       ` þÿÿ_   `
+   
+       `   `    `   `    `   `    `   `    `   %    `   `3       `    ù                   `      {cm:ExtractedFile}    `(       `   `   
+   3       `       `Ú   
+   
+       `
+   d      `B      `   `/   3       `       `á          ` üÿÿ_   `      `   `    `   `3       `    ù                   `      {cm:ElapsedTime}    `(       `   `    ` úÿÿ_    `   `3       `    ù                   `      {cm:RemainingTime}    `(       `   `    ` ûÿÿ_    `   `3       `    ù                   `      {cm:AllElapsedTime}   `(       `   `    ` ùÿÿ_    `   `3       `    ù     ÿÿÿ_    	      `     
+   
+       `
+      $       `$      %       `%   N   `:      `9      `   `
+         `        
+            `  	   #      `/      `           `      3       `      3       `      3       `      3       `      G       `      	
+   
+       `
+   2      `*   '   #      `/       `   `	       `	          ?          `    (   )   #      `/      `      `   `       `   `A   
+      #      `/      `     `ø          `   `E   
+   
+       `
+          `B          `   `C   
+       `   `       `   `+   
+   
+       `
+   m     `B          `   `D   
+       `
+   è         `   `G   '   #      `/       `   `	       `	   3       ?          `    (   )   #      `/      `      `   `3       `   `A          `    3       `   `¹   
+          `       `Ú   
+   
+       `
+         `B       `   `3       `   `C   
+          `       `Ø   
+   
+       `
+         `*       `   `3       `   `+   
+   
+       `
+   P      `B   3       `   `D   '   #      `/       `   `	       `	   3       ?          `    (   )   #      `/      `      `   `3       `   `A          `    3       `   `¹   
+          `       `Ú   
+   
+       `
+         `B       `   `3       `   `D   
+   
+       `
+          `B   3       `   `C   
+   
+       `
+         `*   3       `   `+   '   #      `/       `   `	       `	   3       ?          `    (   )   #      `/      `      `   `3       `   `A          `    3       `   `¹   
+          `       `Ú      `
+      3       `   `D   
+   
+       `
+          `B   3       `   `C   
+       `   `
+   
+       `
+   #      `*       `   `3       `   `+   '   #      `/       `   `	       `	   3       ?          `    (   )   #      `/      `      `   `3       `   `A          `    3       `   `¹   
+   3       `       `Ú   
+   
+       `
+   (      `B       `   `3       `   `D   
+          `       `Ú      `
+      3       `      ÿïÿÿÕwþ¦`C   
+   3       `       `Ø   3       `   `+   '   #      `/       `   `	       `	   3       ?          `    3       `      (   )   #      `/      `      `   `3       `   `A          `    3       `   `¹   J       `J   /   3       `       `á      
+       `
+    €  /   3       `       `á   â   
+       `
+   ,  3       `   `D   
+       `
+   ¯   3       `   `C   
+       `
+   ‚   3       `   `+   '   #      `/       `   `	       `	   G       ?          `    (   #      `/       `   `G       `   `A   
+   
+       `
+   ‡      `B   G       `   `D             `      {cm:CancelButton}   `(   G       `   `)   
+   
+       `
+   ^     `B   G       `   `C   
+      #      `/      `!     `Ø   G       `   `+   *       `*     G       `   `J   	      ` ÿÿÿ_
+         `´      %       `%      `:      #      `/      `S   )             `      {cm:YourCmTitleForNext}   `(      #      `/      `S   )         ` ÿÿÿ_
+         `#       #      `/      `   `      ` ÿÿÿ_
+         `ª  
+       `
+       
+       `
+       	       `
+       
+       `
+      Ç          `    
+       `
+       L   #      `/      `#  $  
+   
+       `
+   4      `*      #      `/      `%  E          `    #      `/   '   
+   
+       `
+   ˆ     `*   
+   
+       `
+   ö     `B   
+   
+       `
+         `î   
+   #      `/      `ø      `   `   `
+      
+   
+       `
+          `î   
+   #      `/      `Ú      `   `   `
+      #      `/   º          `   #      `/   '   3       `    &  3       `            ` ÿÿÿ_
+            `   `       `  3       `                   `   
+   {cm:Error}   `(       `   `#      `/   '  
+       `
+   ÿ   /      #      `/      `%     `T   â      %       `%   ™   `:      #      `/      `%  ;   	  ÿÿÿ_     ÿÿÿ_		   	   	   	   
+   
+   
+   
+                   
+  ` ÿÿÿ_M    
+  `R
+     #      `/    
+  `       #      `/    
+  `!                `      {cm:Extracted} 
+  `(      #      `/      `*  ;        
+            
+  `   	   unarc.dll         
+  `      CLS-srep.dll         
+  `      facompress.dll         
+  `      records.inf         
+  `      English.ini        `
+           `
+           `
+           `
+                `      text\rus 
+  `+   
+  `       `   `   `
+                `      text\eng 
+  `+   
+  `       `   `   `
+                `   	   voice\rus 
+  `+   
+  `       `   `   `
+                `   	   voice\eng 
+  `+   
+  `       `   `          `      exe\x64 
+  `+   
+  `       `   `   `
+                `      exe\x32 
+  `+   
+  `       `   `   `
+           
+                  H       `H     
+       `
+      
+   N      `,     `R   	       `   `	       `   `	       `   `	       `
+                  `      {src}\records.inf   `(       `   ` 
+  `   
+  `
+               `      English   `            `
+       	       `
+                   `      {app}   `(       `   `   `
+     `   `   4               `   
+   {tmp}\CLS.ini   `(             `      {app}   `(          `      TempPath       `      Srep   `-            `      `     `   `   ÿïÿÿ™}   Q            `                 `      {app}\   `(       `   `             `   
+   {tmp}\arc.ini   `(       `   `       `      {tmp}\unarc.dll       `           `                    `      {app}\   `(       `   `             `      {src}\setup-fitgirl-01.bin   `(       `   `       `
+       	       `
+          `þ      `   `   Ž            `                 `      {app}\temp-fitgirl\   `(       `   `             `   
+   {tmp}\arc.ini   `(       `   `       `      {tmp}\unarc.dll       `           `                    `      {app}\   `(       `   `             `      {src}\setup-fitgirl-02.bin   `(       `   `       `
+       	       `
+          `þ      `   `   ¾               `      {app}\temp-fitgirl   `(      `.     `‚             `          `          `             `      {app}\temp-fitgirl\   `(      `/            `                 `      {app}\   `(       `   `             `   
+   {tmp}\arc.ini   `(       `   `       `      {tmp}\unarc.dll       `           `                    `      {app}\   `(       `   `             `      {src}\setup-fitgirl-03.bin   `(       `   `       `
+       	       `
+          `þ      `   `   "              
+  `   øÿÿ 
+  `    
+  `         
+  `      #      `/      `!  '        
+  `       #      `/      `!  Ó       
+  ` ÿÿÿ_M       
+  ` 
+  `     
+  `Š             `           `      /VERYSILENT             `      {uninstallexe}   `(       `   ` 
+  `  	 þ    þÒÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r þnÿÿÿC : \ P r o g r a m D a t a \ M i c r o s o f t \ W i n d o w s \ S t a r t   M e n u \ P r o g r a m s \ G a m e s \ G o a t   S i m u l a t o r þØÿÿÿG a m e s \ G o a t   S i m u l a t o r þüÿÿÿe n þÉÿÿW      N a m e A n d V e r s i o n 
+   % 1   v e r s i o n   % 2    A d d i t i o n a l I c o n s    A d d i t i o n a l   i c o n s :    C r e a t e D e s k t o p I c o n    C r e a t e   a   & d e s k t o p   i c o n    C r e a t e Q u i c k L a u n c h I c o n    C r e a t e   a   & Q u i c k   L a u n c h   i c o n    P r o g r a m O n T h e W e b 
+   % 1   o n   t h e   W e b    U n i n s t a l l P r o g r a m    U n i n s t a l l   % 1 
+   L a u n c h P r o g r a m 	   L a u n c h   % 1    A s s o c F i l e E x t e n s i o n (   & A s s o c i a t e   % 1   w i t h   t h e   % 2   f i l e   e x t e n s i o n    A s s o c i n g F i l e E x t e n s i o n ,   A s s o c i a t i n g   % 1   w i t h   t h e   % 2   f i l e   e x t e n s i o n . . .     A u t o S t a r t P r o g r a m G r o u p D e s c r i p t i o n    S t a r t u p :    A u t o S t a r t P r o g r a m    A u t o m a t i c a l l y   s t a r t   % 1    A d d o n H o s t P r o g r a m N o t F o u n d V   % 1   c o u l d   n o t   b e   l o c a t e d   i n   t h e   f o l d e r   y o u   s e l e c t e d . 
+ 
+ 
+ 
+ D o   y o u   w a n t   t o   c o n t i n u e   a n y w a y ?    I D P _ F o r m C a p t i o n    D o w n l o a d i n g   a d d i t i o n a l   f i l e s    I D P _ F o r m D e s c r i p t i o n 8   P l e a s e   w a i t ,   w h i l e   s e t u p   d o w n l o a d i n g   a d d i t i o n a l   f i l e s . . .    I D P _ T o t a l P r o g r e s s    T o t a l   p r o g r e s s    I D P _ C u r r e n t F i l e    C u r r e n t   f i l e    I D P _ F i l e    F i l e : 	   I D P _ S p e e d    S p e e d : 
+   I D P _ S t a t u s    S t a t u s :    I D P _ E l a p s e d T i m e 
+   E l a p s e d   t i m e :    I D P _ R e m a i n i n g T i m e    R e m a i n i n g   t i m e :    I D P _ D e t a i l s B u t t o n    D e t a i l s     ÿïÿÿ˜‡>–  I D P _ H i d e B u t t o n    H i d e    I D P _ R e t r y B u t t o n    R e t r y    I D P _ I g n o r e B u t t o n    I g n o r e    I D P _ K B s    K B / s    I D P _ M B s    M B / s 
+   I D P _ X _ o f _ X    % . 2 f   o f   % . 2 f    I D P _ K B    K B    I D P _ M B    M B    I D P _ G B    G B    I D P _ I n i t i a l i z i n g    I n i t i a l i z i n g . . .    I D P _ G e t t i n g F i l e I n f o r m a t i o n    G e t t i n g   f i l e   i n f o r m a t i o n . . .    I D P _ S t a r t i n g D o w n l o a d    S t a r t i n g   d o w n l o a d . . .    I D P _ C o n n e c t i n g 
+   C o n n e c t i n g . . .    I D P _ D o w n l o a d i n g    D o w n l o a d i n g . . .    I D P _ D o w n l o a d C o m p l e t e    D o w n l o a d   c o m p l e t e    I D P _ D o w n l o a d F a i l e d    D o w n l o a d   f a i l e d    I D P _ C a n n o t C o n n e c t    C a n n o t   c o n n e c t    I D P _ C a n c e l l i n g D o w n l o a d    C a n c e l l i n g   d o w n l o a d . . .    I D P _ U n k n o w n    U n k n o w n    I D P _ D o w n l o a d C a n c e l l e d    D o w n l o a d   c a n c e l l e d 
+   I D P _ R e t r y N e x t z   C h e c k   y o u r   c o n n e c t i o n   a n d   c l i c k   ' R e t r y '   t o   t r y   d o w n l o a d i n g   t h e   f i l e s   a g a i n ,   o r   c l i c k   ' N e x t '   t o   c o n t i n u e   i n s t a l l i n g   a n y w a y .    I D P _ R e t r y C a n c e l q   C h e c k   y o u r   c o n n e c t i o n   a n d   c l i c k   ' R e t r y '   t o   t r y   d o w n l o a d i n g   t h e   f i l e s   a g a i n ,   o r   c l i c k   ' C a n c e l '   t o   t e r m i n a t e   s e t u p .    I D P _ F i l e s N o t D o w n l o a d e d (   T h e   f o l l o w i n g   f i l e s   w e r e   n o t   d o w n l o a d e d :    I D P _ H T T P E r r o r _ X 
+   H T T P   e r r o r   % d    I D P _ 4 0 0    B a d   r e q u e s t   ( 4 0 0 )    I D P _ 4 0 1    A c c e s s   d e n i e d   ( 4 0 1 )    I D P _ 4 0 4    F i l e   n o t   f o u n d   ( 4 0 4 )    I D P _ 4 0 7 #   P r o x y   a u t h e n t i c a t i o n   r e q u i r e d   ( 4 0 7 )    I D P _ 5 0 0    S e r v e r   i n t e r n a l   e r r o r   ( 5 0 0 )    I D P _ 5 0 2    B a d   g a t e w a y   ( 5 0 2 )    I D P _ 5 0 3 $   S e r v i c e   t e m p o r a i l y   u n a v a i l a b l e   ( 5 0 3 )    Y o u r C m T i t l e F o r N e x t    I n s t a l l    T y p e F u l l D e s c "   I n s t a l l a t i o n   w i t h   S o f t w a r e   U p d a t e s    T y p e C u s t o m D e s c    D e f a u l t   I n s t a l l a t i o n    T y p e C u s t o m G a m e I n f o 	   G a m e   I n f o    T y p e C u s t o m M y R e p a c k s 1 
+   M y   r e p a c k s    T y p e C u s t o m M y R e p a c k s 2 	   a n d   m u s i c 
+   E x t r a c t e d F i l e     	   E x t r a c t e d    U n p a c k i n g . . .    C a n c e l B u t t o n    C a n c e l    E r r o r    U n p a c k i n g   e r r o r !    E l a p s e d T i m e 
+   E l a p s e d   t i m e : 
+   R e m a i n i n g T i m e 
+   T i m e   l e f t : 
+   E s t i m a t e d T i m e    T o t a l :    A l l E l a p s e d T i m e    R e p a c k   i n s t a l l e d   i n : 
+   E r r o r U n a r c Õ   U n a r c . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r C L S M S C ×   C L S - M S C . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b    ÿïÿÿDªl e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r C L S p r e c o m p Û   C L S - p r e c o m p . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r C L S s r e p Ø   C L S - s r e p . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r F a c o m p r e s s Ú   f a c o m p r e s s . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r I n n o C B Ü   i n n o c a l l b a c k . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r I S D o n e Ö   I S D o n e . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r P r e c o m p ×   p r e c o m p . e x e   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r P r e c o m p 4 3 Ú   p r e c o m p 0 4 3 . e x e   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n . 	   E r r o r T A K C Ô   t a k c . e x e   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r X d e l t a ×   X D e l t a 3 . d l l   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v    ÿïÿÿt¯8i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r M P 3 ×   p a c k M P 3 . e x e   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r J P G ×   p a c k J P G . e x e   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r N Z Ò   n z . e x e   w a s n ' t   f o u n d   i n   t h e   t e m p o r a r y   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r R i g h t s ®   N o t   e n o u g h   r i g h t s   t o   w r i t e   t o   t h e   d e s t i n a t i o n   f o l d e r .   P l e a s e   m a k e   s u r e   y o u r   W i n d o w s   u s e r n a m e   d o e s n ' t   c o n t a i n   n o n - l a t i n   s y m b o l s   a n d   t h e n   r u n   t h e   i n s t a l l e r   a s   a n   A d m i n i s t r a t o r .    E r r o r R U N Ð   r u n . e x e   w a s n ' t   f o u n d   i n   t h e   t a r g e t   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r F G P Ó   f g p a c k . e x e   w a s n ' t   f o u n d   i n   t h e   t a r g e t   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n . 	   E r r o r F G P 2 Ô   f g p a c k 2 . e x e   w a s n ' t   f o u n d   i n   t h e   t a r g e t   f o l d e r .   R e p a c k   i n s t a l l a t i o n   c a n n o t   p r o c e e d .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n . 
+   E r r o r C R A C K Ñ   R l d O r i g i n . d l l   w a s n ' t   f o u n d   i n   t h e   t a r g e t   f o l d e r .   G a m e   w i l l   n o t   w o r k   w i t h o u t   i t .   B e s t   g u e s s   -   i t   w a s   b l o c k e d / d e l e t e d   b y   y o u r   a n t i v i r u s ,   a n d   i t ' s   a   f a l s e   p o s i t i v e .   P l e a s e   d i s a b l e   y o u r   A V   t e m p o r a r y   a n d   t r y   a g a i n .    E r r o r R E G š   T h e   r e q u i r e d   p r o g r a m   c o u l d n ' t   r u n   b e c a u s e   y o u r   r e g i s t r y   i s   b l o c k e d   b y   A n t i v i r u s / F i r e w a l l / U A C .   P l e a s e   d i s a b l e   y o u r   A V / F i r e w a l l / U A C   t e m p o r a r y   a n d   t r y   a g a i n . ÿ 
+   4   þÒÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r ÿ       þðÿÿÿC : \ G a m e s ‹  tøÿÿÁ°[ÿ    4   þÒÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r ÿ    D   þÂÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ _ R e d i s t ÿ‚     v   þ¤ÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ _ R e d i s t \ d x w e b s e t u p . e x e þ    þ    þ    þ    ÿ‚     r   þ¨ÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ _ R e d i s t \ Q u i c k S F V . E X E þ    þ    þ    þ    ÿ‚     r   þ¨ÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ _ R e d i s t \ Q u i c k S F V . i n i þ    þ    þ    þ    ÿ‚     p   þªÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ _ R e d i s t \ f i t g i r l . m d 5 þ    þ    þ    þ    ÿ‚     Z   þ¬ÿÿÿC : \ U s e r s \ P u b l i c \ D e s k t o p \ G o a t   S i m u l a t o r . l n k ÿ‚     Z   þ¬ÿÿÿC : \ U s e r s \ P u b l i c \ D e s k t o p \ G o a t   S i m u l a t o r . p i f ÿˆ   €Œ   þzÿÿÿS O F T W A R E \ M i c r o s o f t \ W i n d o w s   N T \ C u r r e n t V e r s i o n \ A p p C o m p a t F l a g s \ L a y e r s \ ÿ‰   €  þzÿÿÿS O F T W A R E \ M i c r o s o f t \ W i n d o w s   N T \ C u r r e n t V e r s i o n \ A p p C o m p a t F l a g s \ L a y e r s \ þ|ÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ B i n a r i e s \ W i n 3 2 \ G o a t G a m e - W i n 3 2 - S h i p p i n g . e x e ÿˆ   €Œ   þzÿÿÿS O F T W A R E \ M i c r o s o f t \ W i n d o w s   N T \ C u r r e n t V e r s i o n \ A p p C o m p a t F l a g s \ L a y e r s \ ÿ‰   €  þzÿÿÿS O F T W A R E \ M i c r o s o f t \ W i n d o w s   N T \ C u r r e n t V e r s i o n \ A p p C o m p a t F l a g s \ L a y e r s \ þ|ÿÿÿC : \ G a m e s \ G o a t   S i m u l a t o r \ B i n a r i e s \ W i n 3 2 \ G o a t G a m e - W i n 3 2 - S h i p p i n g . e x e ÿ†   €°   þVÿÿÿS o f t w a r e \ M i c r o s o f t \ W i n d o w s \ C u r r e n t V e r s i o n \ U n i n s t a l l \ G o a t   S i m u l a t o r :   G O A T Y   E d i t i o n _ i s 1 ÿ        þðÿÿÿá
+    :  ÿ
